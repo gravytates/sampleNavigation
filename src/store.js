@@ -2,6 +2,9 @@
 // Redux
 import { applyMiddleware, combineReducers, createStore } from 'redux'
 import { createLogger } from 'redux-logger'
+// Redux-Saga
+import createSagaMiddleware from 'redux-saga';
+import sagas from './sagas/index';
 // Navigation
 import { NavigatorTabOne } from './navigation/tabOneNav'
 import { NavigatorTabTwo } from './navigation/tabTwoNav'
